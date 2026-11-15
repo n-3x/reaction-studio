@@ -1,0 +1,1 @@
+(()=>{try{let e=localStorage.getItem("rs-theme")||"system";(e==="dark"||e==="system"&&matchMedia("(prefers-color-scheme: dark)").matches)&&document.documentElement.classList.add("dark")}catch{document.documentElement.classList.add("dark")}})();
